@@ -39,14 +39,13 @@ public class lineComparison {
 
 		double lenOfFirstLine = Math.sqrt(Math.pow((x2 - x1),2) + Math.pow((y2 - y1),2));
 		System.out.println(lenOfFirstLine);
-		
+
 		double lenOfSecondLine = Math.sqrt(Math.pow((x4 - x3),2) + Math.pow((y4 - y3),2));
       System.out.println(lenOfSecondLine);
 
-		if( lenOfFirstLine == lenOfSecondLine ){
-			System.out.println("Both the lines are equal");
-		}else{
-			System.out.println("Both the lines are not equal");
-		}
+		Double len1 = new Double(lenOfFirstLine);
+		Double len2 = new Double(lenOfSecondLine);
+
+		System.out.println(len1.equals(len2));
 	}
 }
