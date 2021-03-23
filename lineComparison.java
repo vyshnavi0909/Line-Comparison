@@ -45,6 +45,7 @@ public class lineComparison {
 
 		Double len1 = new Double(lenOfFirstLine);
 		Double len2 = new Double(lenOfSecondLine);
+		System.out.println(len1.equals(len2));
 		System.out.println(len1.compareTo(len2));
 	}
 }
