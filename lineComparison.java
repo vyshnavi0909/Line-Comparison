@@ -41,7 +41,7 @@ public class lineComparison {
 		System.out.println(lenOfFirstLine);
 
 		double lenOfSecondLine = Math.sqrt(Math.pow((x4 - x3),2) + Math.pow((y4 - y3),2));
-      System.out.println(lenOfSecondLine);
+		System.out.println(lenOfSecondLine);
 
 		Double len1 = new Double(lenOfFirstLine);
 		Double len2 = new Double(lenOfSecondLine);
